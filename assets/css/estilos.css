@@ -1,0 +1,499 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*index.html*/
+
+.home{
+    background-image: linear-gradient(to top, rgb(2, 80, 197, 0.5) 0%, rgb(212, 63, 141, 0.5) 100%), url(../img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 50px;
+}
+
+.home h1{
+    font-size: 120px;
+}
+
+.home p{
+    font-size: 40px;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgb(212, 63, 141);
+    height: 35px;
+}
+.menu-navegacion{
+    display: flex;
+    
+}
+
+.elemento-nav{
+   list-style: none;
+    padding-left: 30px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+.elemento-link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.elemento-link:hover{
+    color:rgb(0, 0, 0)
+}
+
+#inicio{
+    margin-left: 60px;
+
+}
+
+.history{
+    background-image: linear-gradient(to right, rgb(236, 119, 171) 0%, rgb(120, 115, 245) 100%);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.subtitulo{
+    color: #FFF;
+    font-size:80px;
+    padding-top:20px;
+    font-weight:500px;
+}
+
+.history h2{
+    text-align: center;
+}
+
+
+
+.parrafo{
+    color: #fff;
+    font-size:30px;
+    font-weight: 300px;
+}
+
+.history p{
+    font-size:20px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px 20px;
+}
+
+.Imagen-Historia{
+    padding-top: 30px;
+    max-width: 80%;
+    border-radius: 2%;
+}
+
+.ubicacion{
+    background-image: linear-gradient(to right, rgb(236, 119, 171) 0%, rgb(120, 115, 245) 100%);
+    padding-bottom: 40px;
+}
+
+.mapaParrafo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ubicacion h2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.ubicacion p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mapa {
+    border-radius: 20%;
+}
+
+.line{
+    width: 15%;
+    max-width: 5px;
+    margin: 0 auto;
+    height: 1px;
+    background: #fff;
+}
+
+
+footer{
+    background-image: linear-gradient(to top, rgb(2, 80, 197) 0%, rgb(212, 63, 141) 100%);
+    padding-bottom: 0.1px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contactanos{
+    width: 40%;
+    color: #fff;
+    margin-left: 90px;
+}
+
+
+
+.marca{
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.redesSociales{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.icono-social-media{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.icono-social-media:hover{
+    background: #fff;
+    color: #3e0085;
+}
+
+.icono-social-media i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.flecha{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(240, 223, 191);
+    line-height: 60px;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+}
+
+.redes-sociales{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;  
+    text-align: center;
+    background-color: rgb(240, 223, 191);
+    line-height: 60px; 
+    z-index: 10;
+    position: fixed;
+    left: 10px;
+    bottom: 30px;
+}
+
+/*menuJuegos*/
+.nintendo-switch-juegos{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+
+.nintendo-switch-juegos h2{
+    padding-top:40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.contenedor-JuegosSwitch{
+    display: ruby;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+
+.juego-switch{
+    text-align: center;
+    margin-bottom: 70px;
+    width: 250px;
+    border-radius:5%;
+}
+
+/*Servicios*/
+
+.seccionEntera{
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+}
+
+#tServicios{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.primerServicio h3{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 50px;
+
+}
+
+.primerServicio img{
+    border-radius: 5%;
+}
+
+.primerServicio p{
+    color:rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#arcade{
+    padding-left:240px;
+}
+
+.Servicio1{
+    display:flex;
+    justify-content: center;
+}
+
+.Servicio1 img{
+    padding-left: 30px;
+}
+
+.Servicio1 p{
+    padding-top: 120px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#parque{
+    padding-left: 100px;
+}
+
+.Servicio2{
+    display:flex;
+    justify-content: center;
+}
+
+.Servicio2 img{
+    padding-left: 30px;
+}
+
+.Servicio2 p{
+    padding-top: 120px;
+    padding-left: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#alquiler{
+    padding-left: 100px;
+}
+.Servicio3{
+    display:flex;
+    justify-content: center;
+}
+
+.Servicio3 img{
+    padding-left: 30px;
+}
+
+.Servicio3 p{
+    padding-top: 120px;
+    padding-left: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#televisor{
+    padding-left: 50px;
+}
+.Servicio4{
+    display:flex;
+    justify-content: center;
+}
+
+.Servicio4 img{
+    padding-left: 30px;
+}
+
+.Servicio4 p{
+    padding-top: 120px;
+    padding-left: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#comida{
+    padding-left: 100px;
+}
+.Servicio5{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Servicio5 img{
+    padding-left: 30px;
+}
+
+.Servicio5 p{
+    padding-top: 120px;
+    padding-left: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Galería*/
+
+.contenedor-galeria{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+.fotosLocal{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.foto-galeria{
+    width: 600px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#galeria{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 50px;
+
+}
+
+/*Quienes Somos*/
+.contenedor-quienesSomos{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+.excelenteAL{
+    width:400px;
+    float:left;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+#titularSeccion5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#parrafoSeccion5{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.imagenObjetivo{
+    width:400px;
+    float:right;
+    margin-right: 20px;
+}
+
+#parrafoObjetivos{
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.contenedor-sedes{
+    padding-top: 100px;
+}
+
+#tituloSedes{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.listaSedes{
+    display:flex;
+    justify-content: center;
+    color: #FFF;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.elementoLista{
+    padding-left:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
